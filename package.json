@@ -1,0 +1,32 @@
+{
+  "name": "gmail-desktop",
+  "version": "0.0.2",
+  "description": "A free, open, cross-platform, offline, multilingual, gmail desktop app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insign/gmail-desktop.git"
+  },
+  "keywords": [
+    "gmail",
+    "desktop",
+    "gmail-desktop",
+    "electron-app",
+    "offline",
+    "cross-platform",
+    "ubuntu",
+    "linux",
+    "macos",
+    "osx",
+    "windows"
+  ],
+  "author": "Hélio Oliveira",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/insign/gmail-desktop/issues"
+  },
+  "homepage": "https://gmaildesk.top"
+}
