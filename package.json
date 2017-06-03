@@ -4,6 +4,7 @@
   "description": "A free, open, cross-platform, offline, multilingual, gmail desktop app",
   "main": "index.js",
   "scripts": {
+    "build":"node build.js",
     "test": "test"
   },
   "repository": {
@@ -23,10 +24,13 @@
     "osx",
     "windows"
   ],
-  "author": "Hélio Oliveira",
+  "author": "Hélio Oliveira <gd@helio.me>",
   "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/insign/gmail-desktop/issues"
   },
-  "homepage": "https://gmaildesk.top"
+  "homepage": "https://gmaildesk.top",
+  "dependencies": {
+    "nativefier": "^7.4.0"
+  }
 }
