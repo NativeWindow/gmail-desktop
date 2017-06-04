@@ -4,7 +4,8 @@
   "description": "A free, open, cross-platform, offline, multilingual, gmail desktop app",
   "main": "index.js",
   "scripts": {
-    "build":"node build.js",
+    "dev": "node env/dev.js",
+    "prod": "node env/prod.js",
     "test": "test"
   },
   "repository": {
@@ -30,7 +31,10 @@
     "url": "https://github.com/insign/gmail-desktop/issues"
   },
   "homepage": "https://gmaildesk.top",
-  "dependencies": {
-    "nativefier": "^7.4.0"
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "jquery": "^3.2.1",
+    "nativefier": "^7.4.0",
+    "style-loader": "^0.18.1"
   }
 }
